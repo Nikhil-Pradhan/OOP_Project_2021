@@ -34,21 +34,21 @@ This program uses ArrayList, so any version of Java after Java Platform SE 8 (in
 
 COMMAND SYNTAX
 
-1.	CREATE USER <Name> <Password>
-2.	CREATE GROUP <Space separated list of user ids>
-3.	JOIN <Group ID> <User ID>
-4.	LEAVE <Group ID> <User ID>
+1.	CREATE USER \<Name\> \<Password\>
+2.	CREATE GROUP \<Space separated list of user ids\>
+3.	JOIN \<Group ID\> \<User ID\>
+4.	LEAVE \<Group ID\> \<User ID\>
 5.	SHOW ALL
-6.	SHOW <User ID>
+6.	SHOW \<User ID\>
 7.	SHOW ALL USERS
 8.	SHOW ALL GROUPS
-9.	PAY <ID of Payer> <ID of Receiver> <amount>
-10.	EXPENSE <ID of User who paid> <No. of users> <space separated list of user ids> EQUAL <Total Amount>
-11.	EXPENSE <ID of User who paid> <No. of users> <space separated list of user ids> EXACT <Space separated exact amounts>
-12.	EXPENSE <ID of User who paid> <No. of users> <space separated list of user ids> PERCENT <Total Amount> <Space separated percentage (excluding user who paid)>
-13.	EXPENSE GROUP <Group ID> <ID of user who paid> EQUAL <Total Amount>
-14.	EXPENSE GROUP <Group ID> <ID of user who paid> EXACT <Space separated exact amounts (excluding user who paid)>
-15.	EXPENSE GROUP <Group ID> <ID of user who paid> PERCENT <Total Amount> <Space separated list of percentages (excluding user who paid)>
+9.	PAY \<ID of Payer\> \<ID of Receiver\> \<amount\>
+10.	EXPENSE \<ID of User who paid\> \<No. of users\> \<space separated list of user ids\> EQUAL \<Total Amount\>
+11.	EXPENSE \<ID of User who paid\> \<No. of users\> \<space separated list of user ids\> EXACT \<Space separated exact amounts\>
+12.	EXPENSE \<ID of User who paid\> \<No. of users\> \<space separated list of user ids\> PERCENT \<Total Amount\> \<Space separated percentage (excluding user who paid)\>
+13.	EXPENSE GROUP \<Group ID\> \<ID of user who paid\> EQUAL \<Total Amount\>
+14.	EXPENSE GROUP \<Group ID\> \<ID of user who paid\> EXACT \<Space separated exact amounts (excluding user who paid)\>
+15.	EXPENSE GROUP \<Group ID\> \<ID of user who paid\> PERCENT \<Total Amount\> \<Space separated list of percentages (excluding user who paid)\>
 16.	END
 
 
