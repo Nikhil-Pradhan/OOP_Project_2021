@@ -24,11 +24,9 @@ This program supports the following features:
 6.	Show balance
 7.  Show all users
 8.  Show all groups
-9.	Split a bill
-    a.	Equally among everyone
-    b.	Based on exact amount
-    c.	Based on percentage
-The program will continue executing till the user enters “END”
+9.	Split a bill equally among everyone, based on exact amount, or based on percentage
+
+The program will keep on executing until the user enters "END".
 
 SOFTWARE REQUIRED
 
