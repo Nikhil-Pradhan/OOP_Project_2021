@@ -22,7 +22,9 @@ This program supports the following features:
 4.	Leave a group
 5.	Pay another user (can be used for returning money owed)
 6.	Show balance
-7.	Split a bill
+7.  Show all users
+8.  Show all groups
+9.	Split a bill
     a.	Equally among everyone
     b.	Based on exact amount
     c.	Based on percentage
